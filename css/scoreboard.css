@@ -4,8 +4,6 @@
 }
 
 table {
-  border: 3px solid #98ff98;
-  border-radius: 1.875rem;
   width: 66%;
   display: flex;
   flex-direction: column;
