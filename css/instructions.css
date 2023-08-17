@@ -18,10 +18,10 @@
 }
 
 @media (min-width: 300px) {
-  h2 {
+  .instructions_header {
     font-size: 0.6rem;
   }
-  p {
+  .instructions_paragraph {
     font-size: 0.5rem;
   }
   .paragraph__icon {
@@ -30,12 +30,12 @@
 }
 
 @media (min-width: 600px) {
-  h2 {
-    font-size: 1.25rem;
-    padding: 1rem;
+  .instructions_header {
+    font-size: 0.75rem;
+    padding: 0.5rem;
   }
-  p {
-    font-size: 1rem;
+  .instructions_paragraph {
+    font-size: 0.5rem;
     padding: 0.25rem;
   }
   .paragraph__icon {
@@ -44,12 +44,12 @@
 }
 
 @media (min-width: 1200px) {
-  h2 {
-    font-size: 2rem;
+  .instructions_header {
+    font-size: 1.25rem;
     padding: 1rem;
   }
-  p {
-    font-size: 1.25rem;
+  .instructions_paragraph {
+    font-size: 1rem;
     padding: 0.25rem;
   }
   .paragraph__icon {
