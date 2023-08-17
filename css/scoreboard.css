@@ -4,14 +4,13 @@
 }
 
 table {
-  border: 3px solid #98ff98;
-  border-radius: 1.875rem;
-  padding: 0 0 1rem 0;
+  width: 66%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   padding: 2% 2%;
+  margin: ;
 }
 
 @media (min-width: 300px) {
@@ -29,7 +28,6 @@ table {
 @media (min-width: 600px) {
   th {
     font-size: 1.25rem;
-    padding: 1rem;
   }
   td {
     font-size: 1rem;
@@ -47,7 +45,6 @@ table {
   }
   td {
     font-size: 1.25rem;
-    padding: 0.25rem;
   }
   .tablehead__icon {
     width: 1.5rem;

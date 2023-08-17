@@ -1,0 +1,12 @@
+.highscore {
+  font-size: 2.75rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.highscore__icon {
+  width: 2.5rem;
+  margin: 0 1rem;
+}
