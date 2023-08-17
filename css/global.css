@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #98ff98;
+  --secondary-color: #000;
+  font-family: "Press Start 2P";
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}

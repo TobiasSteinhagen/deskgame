@@ -1,0 +1,60 @@
+.instructions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5rem;
+  position: relative;
+}
+.paragraph__icon {
+  background-color: #98ff98;
+  border-radius: 100%;
+}
+
+.paragraph__icon {
+  width: 1.2rem;
+  background-color: #98ff98;
+  border-radius: 100%;
+}
+
+@media (min-width: 300px) {
+  h2 {
+    font-size: 0.6rem;
+  }
+  p {
+    font-size: 0.5rem;
+  }
+  .paragraph__icon {
+    width: 0.5rem;
+  }
+}
+
+@media (min-width: 600px) {
+  h2 {
+    font-size: 1.25rem;
+    padding: 1rem;
+  }
+  p {
+    font-size: 1rem;
+    padding: 0.25rem;
+  }
+  .paragraph__icon {
+    width: 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  p {
+    font-size: 1.25rem;
+    padding: 0.25rem;
+  }
+  .paragraph__icon {
+    width: 1.5rem;
+  }
+  p {
+    margin: 0 25%;
+  }
+}
