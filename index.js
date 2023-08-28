@@ -1,72 +1,69 @@
 const player = [
   {
-    player: "Anna",
-    score: "04",
+    name: "Anna",
+    points: "09",
   },
   {
-    player: "Berna",
-    score: "05",
+    name: "Berna",
+    points: "13",
   },
   {
-    player: "Bonnie",
-    score: "02",
+    name: "Bonnie",
+    points: "08",
   },
   {
-    player: "David K.",
-    score: "02",
+    name: "David K.",
+    points: "09",
   },
   {
-    player: "David v.H.",
-    score: "01",
+    name: "David v.H.",
+    points: "09",
   },
   {
-    player: "Elli",
-    score: "07",
+    name: "Elli",
+    points: "13",
   },
   {
-    player: "Henrique",
-    score: "02",
+    name: "Henrique",
+    points: "08",
   },
   {
-    player: "Jaoh",
-    score: "02",
+    name: "Jaoh",
+    points: "05",
   },
   {
-    player: "Leo",
-    score: "02",
+    name: "Marcus",
+    points: "06",
   },
   {
-    player: "Marcus",
-    score: "02",
+    name: "Miriam",
+    points: "06",
   },
   {
-    player: "Miriam",
-    score: "01",
+    name: "Pia",
+    points: "08",
   },
   {
-    player: "Pia",
-    score: "03",
+    name: "Ping",
+    points: "05",
   },
   {
-    player: "Ping",
-    score: "02",
+    name: "Shwan",
+    points: "07",
   },
   {
-    player: "Shwan",
-    score: "02",
+    name: "Stephan",
+    points: "08",
   },
   {
-    player: "Stephan",
-    score: "03",
+    name: "Tien",
+    points: "04",
   },
   {
-    player: "Tien",
-    score: "02",
-  },
-  {
-    player: "Tobi",
-    score: "05",
+    name: "Tobi",
+    points: "12",
   },
 ];
 
-console.log(player);
+const tabelle = document.querySelector('[data-js="table"]');
+console.log(tabelle);
